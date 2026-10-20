@@ -1,0 +1,18 @@
+name: Create Item
+description: Submit payload to endpoint
+method: POST
+url: https://httpbin.org/post
+headers:
+- name: Content-Type
+  value: application/json
+  enabled: true
+- name: Accept
+  value: application/json
+  enabled: true
+body:
+  content: |-
+    {
+      "name": "Posting Rust",
+      "status": "active",
+      "fast": true
+    }

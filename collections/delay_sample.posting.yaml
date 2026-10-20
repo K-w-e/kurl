@@ -1,0 +1,4 @@
+name: Delayed Response
+description: Test async UI responsiveness
+method: GET
+url: https://httpbin.org/delay/2
