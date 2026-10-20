@@ -2,6 +2,10 @@
 name = "kurl"
 version = "0.1.0"
 edition = "2024"
+description = "A terminal HTTP client with Ratatui and Tokio"
+license = "MIT"
+repository = "https://github.com/K-w-e/kurl"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.104"

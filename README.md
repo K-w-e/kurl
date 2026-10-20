@@ -30,17 +30,31 @@ A terminal HTTP client written in Rust with keyboard and mouse navigation, inspi
 ### Building from Source
 
 ```bash
-git clone https://github.com/<your-username>/kurl.git
+git clone https://github.com/K-w-e/kurl.git
 cd kurl
 cargo build --release
 ```
 
 The compiled binary will be located at `target/release/kurl` (`kurl.exe` on Windows).
 
-### Installing via Cargo
+### Installing and Updating via Cargo
+
+To install directly into Cargo's binary path:
 
 ```bash
-cargo install --git https://github.com/<your-username>/kurl
+cargo install --git https://github.com/K-w-e/kurl.git
+```
+
+To update an existing installation to the latest version:
+
+```bash
+cargo install --git https://github.com/K-w-e/kurl.git --force
+```
+
+To install a specific release tag:
+
+```bash
+cargo install --git https://github.com/K-w-e/kurl.git --tag v0.1.0
 ```
 
 ### Running with a Specific Collection
